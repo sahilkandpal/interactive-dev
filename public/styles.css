@@ -1,0 +1,161 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.card{
+    padding: 15px;
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 378px;
+    width: 348px;
+    border-radius: 20px;
+}
+.heading-text{
+    font-weight: 700;
+}
+.heading{
+    margin: 10px;
+    font-size: 28px;
+    display: inline-block;
+   color: hsl(0, 0%, 100%);
+}
+
+.paragraph{
+    font-size: 15px;
+    color:  hsl(217, 12%, 63%);
+}
+
+.circle{
+    display: inline-block;
+    /* margin-bottom: 25px; */
+    margin: 8px 12px 25px 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: hsla(217, 12%, 63%, 0.091);
+
+}
+
+
+img{
+    position: absolute;
+    margin: auto;
+    padding: 15px;
+    width: 19px;
+
+}
+
+.number{
+    position: absolute;
+    margin: auto;
+    color: hsl(216, 12%, 54%);
+    font-weight: 700;
+    font-size: 20px;
+    display: inline;
+    margin-top: 13px;
+    margin-left: 20px;
+    /* padding-top: 9px;
+    padding-left: 18px; */
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.circle:hover .number{
+    color: hsl(0, 0%, 100%);
+    
+}
+.circle:hover{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.circle:active{
+    background-color:   hsl(25, 97%, 53%);
+
+}
+/* .circle:focus{
+    background-color:   hsl(25, 97%, 53%);
+
+}
+.circle:visited{
+    background-color:   hsl(25, 97%, 53%);
+
+} */
+
+
+button{
+    color:  hsl(0, 0%, 100%);
+    background-color:  hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    width: 320px;
+    height: 40px;
+    margin-top: 5px;
+    font-weight: 700;
+
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+input{
+    display: none;
+}
+
+.rated-info{
+
+    width: 181px;
+    height: 30px;
+
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 85px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: hsla(217, 12%, 63%, 0.091);
+
+    font-size: 13px;
+}
+
+.rate-information{
+    margin: 9px;
+    color: hsl(25, 97%, 53%);
+}
+.other-info{
+    position: absolute;
+    color: white;
+    margin-left: 94px;
+    margin-top: 220px;
+}
+.other-para{
+    display: flex;
+    align-content: center;
+    position: absolute;
+    text-align: center;
+    margin-top: 295px;
+    font-size: 15px;
+    padding-left: 94px;
+    margin-left: -107px;
+    color:  hsl(217, 12%, 63%)
+}
+.thank-img{
+
+    width: 188px;
+    margin-left: 60px;
+    margin-top: 11px;
+
+}
